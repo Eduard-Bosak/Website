@@ -1,0 +1,12 @@
+/* Header.css */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000; /* Чёрный фон для меню */
+    padding: 10px 20px;
+    position: fixed; /* Фиксируем шапку на месте */
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Убедитесь, что шапка находится над другими элементами */
+}

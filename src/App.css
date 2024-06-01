@@ -1,0 +1,17 @@
+/* App.css */
+body {
+    margin: 0;
+    padding: 0; /* Убираем стандартные отступы */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f8f8f8; /* Светлый фон для основного контента */
+}
+
+.App {
+    text-align: center;
+    min-height: 100vh; /* Минимальная высота, чтобы занять весь экран */
+    position: relative; /* Относительное позиционирование для корректного расчета отступов */
+    padding-top: 60px; /* Отступ сверху, равный высоте шапки */
+    padding-bottom: 60px; /* Отступ снизу, равный высоте футера */
+}

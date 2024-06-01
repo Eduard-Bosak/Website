@@ -1,0 +1,48 @@
+.navbar {
+  background-color: #333;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.navbar-brand img {
+  height: 40px;
+}
+
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-nav li {
+  padding: 0 10px;
+}
+
+.navbar-nav li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.navbar-nav li a:hover {
+  text-decoration: underline;
+}
+
+/* Navbar.css */
+.navbar-nav li a {
+  /* ... */
+  transition: color 0.3s ease;
+}
+
+.navbar-nav li a:hover {
+  color: #4d90fe; /* Плавное изменение цвета при наведении */
+}
